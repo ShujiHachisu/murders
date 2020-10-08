@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "Shuji Hachisu"
+date: "05/10/2020"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r, echo=F}
+n <- 32
+```
+Here `r n` cars are compared
+
+
